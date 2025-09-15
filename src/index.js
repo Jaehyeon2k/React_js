@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// import Welcome from './ch05/Welcome'
 // import App from './App';
 // import Hello from './ch03/Hello';
 // import Library from './ch03/Library';
 // import Book from './ch03/Book';
 // import ConfirmDialog from './ch04/ConfirmDialog';
 // import reportWebVitals from './reportWebVitals';
+import App from './ch05/App';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<ConfirmDialog/>);
@@ -55,19 +57,22 @@ import './index.css';
 //     <h2>열심히 리액트를 공부해 봅시다.</h2>
 //   </div>
 // )
-const tick =() => {
-const element = (
-  <div>
-    <h1>안녕, 리액트!</h1>
-    <h2>현재 시간: {new Date().toLocaleTimeString()}</h2>
-  </div>
-)
+// const tick =() => {
+// const element = (
+//   <div>
+//     <h1>안녕, 리액트!</h1>
+//     <h2>현재 시간: {new Date().toLocaleTimeString()}</h2>
+//   </div>
+// )
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(element);
+// }
+
+// setInterval(tick, 1000);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(element);
-}
-
-setInterval(tick, 1000);
+root.render(<App/>);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

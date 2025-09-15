@@ -9,7 +9,7 @@ import './index.css';
 // import ConfirmDialog from './ch04/ConfirmDialog';
 // import reportWebVitals from './reportWebVitals';
 // import {App} from './ch05/App';
-import Comment from './ch05/Comment';
+import CommentList from './ch05/CommentList';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<ConfirmDialog/>);
@@ -76,7 +76,7 @@ import Comment from './ch05/Comment';
 // root.render(<App/>);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Comment/>);
+root.render(<CommentList/>);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

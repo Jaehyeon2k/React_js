@@ -8,7 +8,8 @@ import './index.css';
 // import Book from './ch03/Book';
 // import ConfirmDialog from './ch04/ConfirmDialog';
 // import reportWebVitals from './reportWebVitals';
-import App from './ch05/App';
+// import {App} from './ch05/App';
+import Comment from './ch05/Comment';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<ConfirmDialog/>);
@@ -71,8 +72,11 @@ import App from './ch05/App';
 
 // setInterval(tick, 1000);
 
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<App/>);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App/>);
+root.render(<Comment/>);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

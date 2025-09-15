@@ -10,4 +10,5 @@ const App = (props) => {
     )
 }
 
-export default App;
+export {App};
+// export default App;

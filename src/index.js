@@ -12,7 +12,8 @@ import './index.css';
 // import {App} from './ch05/App';
 // import {LikeButton}  from './ch06/LikeButton';
 // import Notification from './ch06/Notification';
-import NotificationList from './ch06/NotificationList';
+// import NotificationList from './ch06/NotificationList';
+import Counter from './ch07/Conter';
 
 
 
@@ -81,7 +82,7 @@ import NotificationList from './ch06/NotificationList';
 // root.render(<App/>);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<NotificationList/>);
+root.render(<Counter />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

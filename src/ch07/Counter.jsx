@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 
-const Counter = () => {
+function Counter (){
     const [count, setCount] = useState(0);
     const [title, setTitle] = useState('Counter 페이지');
     
@@ -13,19 +13,18 @@ const Counter = () => {
     // useEffect(() => {document.title= `총 ${count}번 클릭.`}, []);
 
     useEffect(() => {
-                    document.title = title
-                    return () => {document.title = 'Counter 사라짐';}
+                    document.title = title;
+                    return () => {document.title = 'Counter 사라짐'};
                     }, [title]);
-    function handleIncrease(e){
+    function handleIncrease(){
         setCount(count + 1);
-        console.log(e.target.name);
         console.log(count);
     }
     function handleDecrease(){
         setCount(count - 1);
     }
     
-
+    
     // const increase = () => {
     //     setCount(count + 1);
     // }
@@ -44,6 +43,7 @@ const Counter = () => {
             <p>{num}</p> */}
         </div>
     )
+    
 }
 
 export default Counter;

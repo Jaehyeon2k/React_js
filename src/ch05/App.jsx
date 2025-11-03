@@ -1,6 +1,6 @@
 import Welcome from "./Welcome"
 
-const App = (props) => {
+const App = () => {
     return (
         <div>
             <Welcome name="Mike"/>

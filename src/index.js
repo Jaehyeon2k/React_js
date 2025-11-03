@@ -13,9 +13,23 @@ import './index.css';
 // import {LikeButton}  from './ch06/LikeButton';
 // import Notification from './ch06/Notification';
 // import NotificationList from './ch06/NotificationList';
-import Counter from './ch07/Conter';
+// import Counter from './ch07/Counter';
+import CounterContainer from './ch07/CounterContainer';
+import { ChatRoomContainer } from './ch07/ChatRoom';
+import Factorial from './ch07/Factorial';
+import FactorialContainer from './ch07/FactorialContainer';
+import Parent from './ch07/Parent';
+import TextInputWithFocusButton from './ch07/TextInputWithfocusButton';
+import UseRefExample from './ch07/useRefExample';
+import Accomodate from './ch07/Accomodate';
+import Toggle from './ch08/Toggle';
+import ConfirmButton from './ch08/ConfirmButton';
+import Greeting from './ch09/Greeting';
+import LoginControl from './ch09/LoginControl';
 
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<LoginControl />);
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<ConfirmDialog/>);
@@ -81,8 +95,7 @@ import Counter from './ch07/Conter';
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<App/>);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Counter />);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

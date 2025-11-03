@@ -1,7 +1,7 @@
 import Book from "./Book"
 import React from "react";
 
-const Library = (props) => {
+const Library = () => {
     return(
         <div>
            <Book name ="처음 만난 파이썬" numOfPage={300} />

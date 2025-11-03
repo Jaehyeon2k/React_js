@@ -8,7 +8,7 @@ const Button = (props) => {
     )
 }
 
-const ConfirmDialog = (props) => {
+const ConfirmDialog = () => {
     return (
         <div>
             <p>내용을 확인했으면 확인 버튼을 눌러주세요.</p>

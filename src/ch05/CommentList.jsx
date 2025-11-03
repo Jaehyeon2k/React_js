@@ -6,7 +6,7 @@ const comments = [
     {name: "박영희", comment: "하이루~"},
 ]
 
-function CommentList(props) {
+function CommentList() {
     return (
         <div>
             {comments.map((c) => {
